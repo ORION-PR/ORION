@@ -1,0 +1,111 @@
+name: ORION - Observatorio autonomo
+
+on:
+  schedule:
+    - cron: "17 3,9,15,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: orion-observatorio
+  cancel-in-progress: false
+
+jobs:
+  investigar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Descargar ORION
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Verificar configuracion de investigacion
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: |
+          if [ -z "$TAVILY_API_KEY" ]; then
+            echo "::error::Falta configurar el secreto TAVILY_API_KEY en GitHub."
+            exit 1
+          fi
+
+      - name: Ejecutar ciclo de investigacion y evaluacion
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: python -m orion.run_cycle
+
+      - name: Generar resumen diario
+        if: github.event.schedule == '17 21 * * *' || github.event_name == 'workflow_dispatch'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          path = Path("data/opportunity_evaluations.json")
+          if not path.exists():
+              raise SystemExit("No existe el historial de evaluaciones.")
+
+          records = json.loads(path.read_text(encoding="utf-8"))
+          if not records:
+              raise SystemExit("El historial de evaluaciones esta vacio.")
+
+          latest = records[-1]
+          evaluations = latest.get("evaluations", [])
+          now = datetime.now(timezone(timedelta(hours=-3)))
+          lines = [
+              "# ORION - Resumen diario",
+              "",
+              f"Fecha: {now:%d/%m/%Y %H:%M} (Argentina)",
+              "",
+              "Evaluacion documental de oportunidades. No equivale a rentabilidad comprobada.",
+              "",
+          ]
+
+          for item in evaluations:
+              sector = item.get("sector", item.get("name", "Sector"))
+              score = item.get("score", "s/d")
+              lines += [f"## {sector}", f"- Puntaje documental: {score}/100"]
+              for key in ("distinct_domains", "domains", "notes", "limitations"):
+                  value = item.get(key)
+                  if value:
+                      lines.append(f"- {key}: {value}")
+              lines.append("")
+
+          lines += [
+              "## Proximos pasos",
+              "- Contrastar las fuentes y comprobar que las oportunidades sigan vigentes.",
+              "- Validar demanda, competencia, costes y viabilidad antes de recomendar una inversion.",
+              "- No se ejecutaron operaciones con dinero real.",
+          ]
+          Path("data/ORION_RESUMEN_DIARIO.md").write_text(
+              "\n".join(lines) + "\n", encoding="utf-8"
+          )
+          print("Resumen diario generado.")
+          PY
+
+      - name: Guardar historiales y resumen en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/multisector_runs.json data/opportunity_evaluations.json data/orion_research.json
+          if [ -f data/ORION_RESUMEN_DIARIO.md ]; then
+            git add data/ORION_RESUMEN_DIARIO.md
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "ORION: actualizar investigacion y evaluaciones"
+            git push
+          else
+            echo "No hay cambios nuevos para guardar."
+          fi
