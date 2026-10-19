@@ -1974,5 +1974,157 @@
       }
     ],
     "finished_at": "2026-10-18T21:42:48.150344+00:00"
+  },
+  {
+    "started_at": "2026-10-19T03:50:43.613342+00:00",
+    "mode": "research_only_no_trading",
+    "sectors": [
+      {
+        "sector_id": "ia",
+        "sector": "Inteligencia artificial",
+        "query": "AI automation underserved small business problems",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "How AI Tools Can Help Underserved Small Businesses Compete",
+            "url": "https://www.anotherchanceforsmallbusinesses.org/post/how-ai-tools-can-help-underserved-small-businesses-compete"
+          },
+          {
+            "title": "National Survey Finds Small Businesses in Underserved Communities Turn to Tech, Crypto, and AI to Compete",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/national-survey-finds-small-businesses-130000821.html"
+          },
+          {
+            "title": "7 Best AI Automation for Small Business Tools in 2026",
+            "url": "https://thecrunch.io/ai-automation-for-small-business"
+          },
+          {
+            "title": "AI Automation for Small Business: Cut Costs, Scale Fast | Tommaso Maria Ricci",
+            "url": "https://www.tommasomariaricci.com/blog/ai-automation-small-business-guide"
+          },
+          {
+            "title": "How AI and ML Automation Solutions Solve Business Problems | SAP Concur US",
+            "url": "https://www.concur.com/resource-center/whitepapers/how-to-use-ai-and-ml-automation-to-solve-business-problems"
+          }
+        ]
+      },
+      {
+        "sector_id": "tecnologia",
+        "sector": "Tecnologia",
+        "query": "emerging technology products unmet customer needs",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Unmet Need Identification: Unlocking Business Potential - Luth Research",
+            "url": "https://luthresearch.com/glossary/unmet-need-identification-unlocking-business-potential"
+          },
+          {
+            "title": "Unmet Needs Research: Five Tools for Identifying Them",
+            "url": "https://indeemo.com/resources/blog/unmet-needs-research-tools"
+          },
+          {
+            "title": "Identify The Customer Needs - Uncovering Unmet Customer Needs",
+            "url": "https://strategyn.com/secrets-to-uncovering-unmet-customer-needs"
+          },
+          {
+            "title": "Chronic Pain Pipeline Insight Report, 2024: Emerging Therapies, Key Products, Leading Companies, Unmet Needs and More",
+            "url": "https://finance.yahoo.com/news/chronic-pain-pipeline-insight-report-095700428.html"
+          },
+          {
+            "title": "What are unmet customer needs in a digital age? - UX24/7",
+            "url": "https://ux247.com/unmet-customer-needs"
+          }
+        ]
+      },
+      {
+        "sector_id": "negocios_digitales",
+        "sector": "Negocios digitales",
+        "query": "profitable digital services underserved niches evidence",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Underserved B2B SaaS Niches 2026: Real Demand Gaps | BigIdeasDB",
+            "url": "https://bigideasdb.com/guides/underserved-b2b-saas-niches-2026"
+          },
+          {
+            "title": "Underserved Micro SaaS Niches 2026: Real Demand Data",
+            "url": "https://bigideasdb.com/guides/underserved-micro-saas-niches-2026"
+          },
+          {
+            "title": "Micro SaaS Underserved Niches 2026: Real Demand Data | BigIdeasDB",
+            "url": "https://bigideasdb.com/guides/micro-saas-underserved-niches-2026"
+          },
+          {
+            "title": "How To Find Underserved Niches In 2025",
+            "url": "https://businessideasfor.com/how-to-find-underserved-niches-in-2025"
+          },
+          {
+            "title": "Underserved Mobile App Niches 2026: Real Opportunity Data",
+            "url": "https://bigideasdb.com/guides/underserved-mobile-app-niches-2026"
+          }
+        ]
+      },
+      {
+        "sector_id": "videojuegos",
+        "sector": "Videojuegos",
+        "query": "indie game market trends underserved player niches",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Indie Developer Market 2026: The Complete Industry Analysis with Data, Trends and Forecasts",
+            "url": "https://fungies.io/indie-developer-market-analysis"
+          },
+          {
+            "title": "How to Market an Indie Game: A 10-Step Indie Game Marketing Strategy",
+            "url": "https://clevertap.com/blog/indie-game-marketing"
+          },
+          {
+            "title": "Indie Game Market Size, Growth Forecast, Demand & Trends 2026–2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/indie-game-market"
+          },
+          {
+            "title": "The State of Indie Games in 2025 and Beyond, Part 2 | SUPERJUMP",
+            "url": "https://www.superjumpmagazine.com/the-state-of-indie-games-in-2025-and-beyond-part-2"
+          },
+          {
+            "title": "Video Game Market Size, Share & Trends Report, 2026-2033",
+            "url": "https://www.grandviewresearch.com/industry-analysis/video-game-market"
+          }
+        ]
+      },
+      {
+        "sector_id": "cripto",
+        "sector": "Criptoactivos",
+        "query": "crypto market infrastructure adoption risks evidence",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Economic Risk and Cryptocurrency: What Drives Global Digital Asset Adoption?",
+            "url": "https://www.mdpi.com/1911-8074/18/8/453"
+          },
+          {
+            "title": "Crypto Adoption in Emerging Markets Poses Risks to Financial Resilience: Moody's",
+            "url": "https://ca.finance.yahoo.com/news/crypto-adoption-emerging-markets-poses-100821694.html"
+          },
+          {
+            "title": "Managing cryptocurrency risk exposures in equity portfolios: Evidence from high-frequency data",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1042443125000137"
+          },
+          {
+            "title": "Chapter 2 The Crypto Ecosystem and Financial Stability Challenges in: Global Financial Stability Report, October 2021",
+            "url": "https://www.elibrary.imf.org/display/book/9781513595603/ch002.xml"
+          },
+          {
+            "title": "Protecting the American public from crypto risks and harms | Brookings",
+            "url": "https://www.brookings.edu/articles/protecting-the-american-public-from-crypto-risks-and-harms"
+          }
+        ]
+      }
+    ],
+    "finished_at": "2026-10-19T03:51:04.375862+00:00"
   }
 ]
