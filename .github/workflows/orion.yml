@@ -75,7 +75,7 @@ jobs:
 
           for item in evaluations:
               sector = item.get("sector", item.get("name", "Sector"))
-              score = item.get("score", "s/d")
+              score = item.get("evidence_score_out_of_100", item.get("score", "s/d"))
               lines += [f"## {sector}", f"- Puntaje documental: {score}/100"]
               for key in ("distinct_domains", "domains", "notes", "limitations"):
                   value = item.get(key)
