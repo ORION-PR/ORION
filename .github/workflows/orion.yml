@@ -46,7 +46,7 @@ jobs:
         run: python -m orion.run_cycle
 
       - name: Generar resumen diario
-        if: github.event.schedule == '17 21 * * *' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '17 21 * * *' || github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
         run: |
           python - <<'PY'
           import json
