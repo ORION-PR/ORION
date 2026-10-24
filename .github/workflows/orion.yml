@@ -109,5 +109,3 @@ jobs:
           else
             echo "No hay cambios nuevos para guardar."
           fi
-        - name: Diagnóstico integral ORION
-          run: python3 orion_diagnostico.py
