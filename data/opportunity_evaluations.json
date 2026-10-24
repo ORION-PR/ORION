@@ -7068,5 +7068,207 @@
         ]
       }
     ]
+  },
+  {
+    "research_started_at": "2026-10-24T15:45:29.812695+00:00",
+    "evaluated_at": "2026-10-24T15:45:49.023856+00:00",
+    "method": "documental_transparente_no_rentabilidad",
+    "evaluations": [
+      {
+        "sector_id": "ia",
+        "sector": "Inteligencia artificial",
+        "query": "AI automation underserved small business problems",
+        "sources_validated_format": 5,
+        "distinct_domains": 5,
+        "evidence_score_out_of_100": 80,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "How AI Tools Can Help Underserved Small Businesses Compete",
+            "url": "https://www.anotherchanceforsmallbusinesses.org/post/how-ai-tools-can-help-underserved-small-businesses-compete"
+          },
+          {
+            "title": "3 Ways AI is Transforming Small Businesses",
+            "url": "https://bipartisanpolicy.org/article/3-ways-ai-is-transforming-small-businesses"
+          },
+          {
+            "title": "National Survey Finds Small Businesses in Underserved Communities Turn to Tech, Crypto, and AI to Compete",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/national-survey-finds-small-businesses-130000821.html"
+          },
+          {
+            "title": "AI Automation for Small Business: Cut Costs, Scale Fast | Tommaso Maria Ricci",
+            "url": "https://www.tommasomariaricci.com/blog/ai-automation-small-business-guide"
+          },
+          {
+            "title": "How AI and ML Automation Solutions Solve Business Problems | SAP Concur US",
+            "url": "https://www.concur.com/resource-center/whitepapers/how-to-use-ai-and-ml-automation-to-solve-business-problems"
+          }
+        ]
+      },
+      {
+        "sector_id": "tecnologia",
+        "sector": "Tecnologia",
+        "query": "emerging technology products unmet customer needs",
+        "sources_validated_format": 5,
+        "distinct_domains": 5,
+        "evidence_score_out_of_100": 80,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Unmet Need Identification: Unlocking Business Potential - Luth Research",
+            "url": "https://luthresearch.com/glossary/unmet-need-identification-unlocking-business-potential"
+          },
+          {
+            "title": "Unmet Needs Research: Five Tools for Identifying Them",
+            "url": "https://indeemo.com/resources/blog/unmet-needs-research-tools"
+          },
+          {
+            "title": "What is Unmet Customer Needs?",
+            "url": "https://www.reallygoodinnovation.com/glossaries/unmet-customer-needs"
+          },
+          {
+            "title": "Identify The Customer Needs - Uncovering Unmet Customer Needs",
+            "url": "https://strategyn.com/secrets-to-uncovering-unmet-customer-needs"
+          },
+          {
+            "title": "What are unmet customer needs in a digital age? - UX24/7",
+            "url": "https://ux247.com/unmet-customer-needs"
+          }
+        ]
+      },
+      {
+        "sector_id": "negocios_digitales",
+        "sector": "Negocios digitales",
+        "query": "profitable digital services underserved niches evidence",
+        "sources_validated_format": 5,
+        "distinct_domains": 5,
+        "evidence_score_out_of_100": 80,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Most Profitable Digital Product Niches 2026: Top 10 by Revenue",
+            "url": "https://insightraider.com/en/answers/what-are-the-most-profitable-digital-product-niches"
+          },
+          {
+            "title": "12 Underserved Niches for Digital Marketing Agencies (2026)",
+            "url": "https://sevenfigureagency.com/12-untapped-niches-to-skyrocket-your-agencys-growth"
+          },
+          {
+            "title": "Choosing a Niche for Your Digital Agency: Industries to Focus On in 2026",
+            "url": "https://digitalagencynetwork.com/choosing-a-niche-for-your-digital-agency-which-industries-to-focus-on"
+          },
+          {
+            "title": "Building Trust in Underserved Communities: Lessons for Growing Digital Financial Services - Center for Financial Inclusion",
+            "url": "https://www.centerforfinancialinclusion.org/article/building-trust-in-underserved-communities-lessons-for-growing-digital-financial-services"
+          },
+          {
+            "title": "Assessing Access to Digital Services in Health Care ... - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11975688"
+          }
+        ]
+      },
+      {
+        "sector_id": "videojuegos",
+        "sector": "Videojuegos",
+        "query": "indie game market trends underserved player niches",
+        "sources_validated_format": 5,
+        "distinct_domains": 5,
+        "evidence_score_out_of_100": 80,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Indie Developer Market 2026: The Complete Industry Analysis with Data, Trends and Forecasts",
+            "url": "https://fungies.io/indie-developer-market-analysis"
+          },
+          {
+            "title": "How to Market an Indie Game: A 10-Step Indie Game Marketing Strategy",
+            "url": "https://clevertap.com/blog/indie-game-marketing"
+          },
+          {
+            "title": "Indie Game - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026 - 2031)",
+            "url": "https://www.giiresearch.com/report/moi2035013-indie-game-market-share-analysis-industry-trends.html"
+          },
+          {
+            "title": "Indie Game Market Size, Growth Forecast, Demand & Trends 2026–2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/indie-game-market"
+          },
+          {
+            "title": "The State of Indie Games in 2025 and Beyond, Part 2 | SUPERJUMP",
+            "url": "https://www.superjumpmagazine.com/the-state-of-indie-games-in-2025-and-beyond-part-2"
+          }
+        ]
+      },
+      {
+        "sector_id": "cripto",
+        "sector": "Criptoactivos",
+        "query": "crypto market infrastructure adoption risks evidence",
+        "sources_validated_format": 5,
+        "distinct_domains": 5,
+        "evidence_score_out_of_100": 80,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Economic Risk and Cryptocurrency: What Drives Global Digital Asset Adoption?",
+            "url": "https://www.mdpi.com/1911-8074/18/8/453"
+          },
+          {
+            "title": "Crypto Adoption in Emerging Markets Poses Risks to Financial Resilience: Moody's",
+            "url": "https://ca.finance.yahoo.com/news/crypto-adoption-emerging-markets-poses-100821694.html"
+          },
+          {
+            "title": "Chapter 2 The Crypto Ecosystem and Financial Stability Challenges in: Global Financial Stability Report, October 2021",
+            "url": "https://www.elibrary.imf.org/display/book/9781513595603/ch002.xml"
+          },
+          {
+            "title": "Crypto’s Meteoric Rise and Mainstream Adoption - NICE Actimize",
+            "url": "https://www.niceactimize.com/blog/cryptos-meteoric-rise-and-mainstream-adoption"
+          },
+          {
+            "title": "Crypto Adoption in Emerging Markets Poses Risks to Financial Resilience: Moody's",
+            "url": "https://au.finance.yahoo.com/news/crypto-adoption-emerging-markets-poses-100821694.html"
+          }
+        ]
+      }
+    ]
   }
 ]
