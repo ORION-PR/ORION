@@ -5774,5 +5774,157 @@
       }
     ],
     "finished_at": "2026-10-25T03:49:23.013971+00:00"
+  },
+  {
+    "started_at": "2026-10-25T09:46:37.459349+00:00",
+    "mode": "research_only_no_trading",
+    "sectors": [
+      {
+        "sector_id": "ia",
+        "sector": "Inteligencia artificial",
+        "query": "AI automation underserved small business problems",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "How AI Tools Can Help Underserved Small Businesses Compete",
+            "url": "https://www.anotherchanceforsmallbusinesses.org/post/how-ai-tools-can-help-underserved-small-businesses-compete"
+          },
+          {
+            "title": "National Survey Finds Small Businesses in Underserved Communities Turn to Tech, Crypto, and AI to Compete",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/national-survey-finds-small-businesses-130000821.html"
+          },
+          {
+            "title": "National Survey Finds Small Businesses in Underserved Communities Turn to Tech, Crypto, and AI to Compete",
+            "url": "https://www.prnewswire.com/news-releases/national-survey-finds-small-businesses-in-underserved-communities-turn-to-tech-crypto-and-ai-to-compete-302729356.html"
+          },
+          {
+            "title": "7 Best AI Automation for Small Business Tools in 2026",
+            "url": "https://thecrunch.io/ai-automation-for-small-business"
+          },
+          {
+            "title": "AI Automation for Small Business: Cut Costs, Scale Fast | Tommaso Maria Ricci",
+            "url": "https://www.tommasomariaricci.com/blog/ai-automation-small-business-guide"
+          }
+        ]
+      },
+      {
+        "sector_id": "tecnologia",
+        "sector": "Tecnologia",
+        "query": "emerging technology products unmet customer needs",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Unmet Need Identification: Unlocking Business Potential - Luth Research",
+            "url": "https://luthresearch.com/glossary/unmet-need-identification-unlocking-business-potential"
+          },
+          {
+            "title": "Unmet Needs Research: Five Tools for Identifying Them",
+            "url": "https://indeemo.com/resources/blog/unmet-needs-research-tools"
+          },
+          {
+            "title": "Identify The Customer Needs - Uncovering Unmet Customer Needs",
+            "url": "https://strategyn.com/secrets-to-uncovering-unmet-customer-needs"
+          },
+          {
+            "title": "What are unmet customer needs in a digital age? - UX24/7",
+            "url": "https://ux247.com/unmet-customer-needs"
+          },
+          {
+            "title": "Chronic Pain Pipeline Insight Report, 2024: Emerging Therapies, Key Products, Leading Companies, Unmet Needs and More",
+            "url": "https://finance.yahoo.com/news/chronic-pain-pipeline-insight-report-095700428.html"
+          }
+        ]
+      },
+      {
+        "sector_id": "negocios_digitales",
+        "sector": "Negocios digitales",
+        "query": "profitable digital services underserved niches evidence",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "12 Profitable Digital Products to Sell in 2026 (With Examples)",
+            "url": "https://zanfia.com/blog/digital-products-to-sell"
+          },
+          {
+            "title": "Most Profitable Digital Product Niches 2026: Top 10 by Revenue",
+            "url": "https://insightraider.com/en/answers/what-are-the-most-profitable-digital-product-niches"
+          },
+          {
+            "title": "The 5 Most Profitable Digital Product Niches (2026)",
+            "url": "https://milotree.com/blog/the-5-most-lucrative-niches-for-selling-digital-products-in-2025"
+          },
+          {
+            "title": "Overview | Digital Finance Inclusion",
+            "url": "https://digitalfinance.worldbank.org/topics/dfs-overview"
+          },
+          {
+            "title": "8 Profitable digital products",
+            "url": "https://www.easy.tools/blog/profitable-digital-products"
+          }
+        ]
+      },
+      {
+        "sector_id": "videojuegos",
+        "sector": "Videojuegos",
+        "query": "indie game market trends underserved player niches",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Indie Developer Market 2026: The Complete Industry Analysis with Data, Trends and Forecasts",
+            "url": "https://fungies.io/indie-developer-market-analysis"
+          },
+          {
+            "title": "How to Market an Indie Game: A 10-Step Indie Game Marketing Strategy",
+            "url": "https://clevertap.com/blog/indie-game-marketing"
+          },
+          {
+            "title": "Indie Game - Market Share Analysis, Industry Trends & Statistics, Growth Forecasts (2026 - 2031)",
+            "url": "https://www.giiresearch.com/report/moi2035013-indie-game-market-share-analysis-industry-trends.html"
+          },
+          {
+            "title": "Indie Game Market Size, Growth Forecast, Demand & Trends 2026–2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/indie-game-market"
+          },
+          {
+            "title": "Indie Game Market Size, Share, Trends & Forecast 2032",
+            "url": "https://www.skyquestt.com/report/indie-game-market"
+          }
+        ]
+      },
+      {
+        "sector_id": "cripto",
+        "sector": "Criptoactivos",
+        "query": "crypto market infrastructure adoption risks evidence",
+        "sources_found": 5,
+        "error": null,
+        "sources": [
+          {
+            "title": "Cryptocurrency Adoption and Financial Stability: Risks ...",
+            "url": "https://ijirt.org/publishedpaper/IJIRT190463_PAPER.pdf"
+          },
+          {
+            "title": "Economic Risk and Cryptocurrency: What Drives Global Digital Asset Adoption?",
+            "url": "https://www.mdpi.com/1911-8074/18/8/453"
+          },
+          {
+            "title": "Crypto Adoption in Emerging Markets Poses Risks to Financial Resilience: Moody's",
+            "url": "https://ca.finance.yahoo.com/news/crypto-adoption-emerging-markets-poses-100821694.html"
+          },
+          {
+            "title": "Crypto trading and Bitcoin prices: evidence from a new database of retail adoption",
+            "url": "https://www.bis.org/publications/working-paper-1049-crypto-trading-and-bitcoin-prices-evidence-new-database-retail-adoption"
+          },
+          {
+            "title": "Protecting the American public from crypto risks and harms | Brookings",
+            "url": "https://www.brookings.edu/articles/protecting-the-american-public-from-crypto-risks-and-harms"
+          }
+        ]
+      }
+    ],
+    "finished_at": "2026-10-25T09:46:52.009736+00:00"
   }
 ]
