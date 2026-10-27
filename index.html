@@ -1,0 +1,80 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ORION Control</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--card:#141f30;--line:#29394e;--text:#edf4ff;--muted:#a8bad0;--blue:#7dd3fc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px system-ui,sans-serif}
+main{max-width:1000px;margin:auto;padding:20px}
+header{padding:22px 0;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:28px}h2{font-size:19px}
+p,.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;overflow-wrap:anywhere}
+.value{font-size:25px;font-weight:700;color:var(--blue)}
+a{color:var(--blue)}
+button{background:#164e63;color:white;border:0;border-radius:8px;padding:12px;font-size:15px}
+table{width:100%;border-collapse:collapse}
+td,th{text-align:left;padding:10px 5px;border-bottom:1px solid var(--line)}
+.small{font-size:13px}
+</style>
+</head>
+<body><main>
+<header>
+<p>OBSERVATORIO INTELIGENTE DE OPORTUNIDADES</p>
+<h1>ORION CONTROL</h1>
+<p>Panel de investigación · Solo lectura · Sin operaciones reales</p>
+<button onclick="loadData()">Actualizar datos</button>
+<span id="status" class="small">Consultando repositorio…</span>
+</header>
+<section class="grid">
+<div class="card"><p>Último ciclo</p><div id="date" class="value">—</div></div>
+<div class="card"><p>Sectores</p><div id="sectors" class="value">—</div></div>
+<div class="card"><p>Consultas</p><div id="queries" class="value">—</div></div>
+<div class="card"><p>Fuentes únicas</p><div id="sources" class="value">—</div></div>
+</section>
+<section class="card">
+<h2>Estado por sector</h2>
+<p class="muted small">La cantidad de fuentes no demuestra demanda ni rentabilidad.</p>
+<div id="table">Cargando…</div>
+</section>
+<section class="card">
+<h2>Resumen diario</h2>
+<div id="summary">Cargando…</div>
+<p><a href="https://github.com/ORION-PR/ORION/actions">Ver ejecuciones de GitHub Actions</a></p>
+<p><a href="https://github.com/ORION-PR/ORION/tree/main/data">Ver archivos de datos</a></p>
+<p><a href="https://github.com/ORION-PR/ORION">Abrir repositorio ORION</a></p>
+</section>
+<p class="small">Los datos se leen del repositorio público. Este panel no valida rentabilidad ni ejecuta operaciones.</p>
+</main>
+<script>
+const base="https://raw.githubusercontent.com/ORION-PR/ORION/main/data/";
+async function loadData(){
+const status=document.getElementById("status");
+status.textContent="Actualizando…";
+try{
+const [runs,report]=await Promise.all([
+fetch(base+"multisector_runs.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("No se pudo leer el historial");return r.json()}),
+fetch(base+"ORION_RESUMEN_DIARIO.md?"+Date.now()).then(r=>{if(!r.ok)throw Error("No se pudo leer el resumen");return r.text()})
+]);
+if(!Array.isArray(runs)||!runs.length)throw Error("El historial no contiene ciclos");
+const latest=runs[runs.length-1], sectors=latest.sectors||[];
+document.getElementById("date").textContent=latest.finished_at?new Date(latest.finished_at).toLocaleString("es-AR"):"Disponible";
+document.getElementById("sectors").textContent=sectors.length;
+document.getElementById("queries").textContent=sectors.reduce((n,s)=>n+Number(s.queries_count||0),0)||"No registrado";
+document.getElementById("sources").textContent=sectors.reduce((n,s)=>n+Number(s.sources_found||0),0);
+document.getElementById("table").innerHTML=sectors.length?
+"<table><thead><tr><th>Sector</th><th>Consultas</th><th>Fuentes</th><th>Estado</th></tr></thead><tbody>"+
+sectors.map(s=>"<tr><td>"+esc(s.sector||s.name||"Sector")+"</td><td>"+esc(s.queries_count??"—")+"</td><td>"+esc(s.sources_found??0)+"</td><td>"+(s.error?"Revisar":"Registrado")+"</td></tr>").join("")+"</tbody></table>":"Sin sectores";
+document.getElementById("summary").innerHTML="<pre style='white-space:pre-wrap;font:inherit'>"+esc(report)+"</pre>";
+status.textContent="Datos cargados correctamente";
+}catch(e){status.textContent="No se pudieron cargar los datos: "+e.message}
+}
+function esc(x){return String(x).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+loadData();
+</script>
+</body></html>
