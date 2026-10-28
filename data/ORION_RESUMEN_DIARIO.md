@@ -1,6 +1,6 @@
 # ORION - Resumen diario
 
-Fecha: 28/10/2026 00:58 (Argentina)
+Fecha: 28/10/2026 07:01 (Argentina)
 
 Evaluacion documental de oportunidades. No equivale a rentabilidad comprobada.
 
@@ -18,7 +18,7 @@ Evaluacion documental de oportunidades. No equivale a rentabilidad comprobada.
 
 ## Videojuegos
 - Puntaje documental: 100/100
-- distinct_domains: 13
+- distinct_domains: 14
 
 ## Criptoactivos
 - Puntaje documental: 100/100
