@@ -14330,5 +14330,477 @@
         ]
       }
     ]
+  },
+  {
+    "research_started_at": "2026-10-29T16:07:15.939004+00:00",
+    "evaluated_at": "2026-10-29T16:08:02.121221+00:00",
+    "method": "documental_transparente_no_rentabilidad",
+    "evaluations": [
+      {
+        "sector_id": "ia",
+        "sector": "Inteligencia artificial",
+        "query": null,
+        "sources_validated_format": 15,
+        "distinct_domains": 15,
+        "evidence_score_out_of_100": 100,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "How AI Tools Can Help Underserved Small Businesses Compete",
+            "url": "https://www.anotherchanceforsmallbusinesses.org/post/how-ai-tools-can-help-underserved-small-businesses-compete",
+            "query": "AI automation underserved small business problems"
+          },
+          {
+            "title": "National Survey Finds Small Businesses in Underserved Communities Turn to Tech, Crypto, and AI to Compete",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/national-survey-finds-small-businesses-130000821.html",
+            "query": "AI automation underserved small business problems"
+          },
+          {
+            "title": "Why SMBs Aren’t Using AI—And Why It’s Hurting Them",
+            "url": "https://www.cin7.com/blog/why-smbs-arent-using-ai",
+            "query": "AI automation underserved small business problems"
+          },
+          {
+            "title": "7 Best AI Automation for Small Business Tools in 2026",
+            "url": "https://thecrunch.io/ai-automation-for-small-business",
+            "query": "AI automation underserved small business problems"
+          },
+          {
+            "title": "AI automation for small business: a guide to building smarter workflows - CodeWords",
+            "url": "https://www.codewords.ai/blog/ai-automation-for-small-business",
+            "query": "AI automation underserved small business problems"
+          },
+          {
+            "title": "A Guide to AI SaaS Pricing Frameworks | Stripe",
+            "url": "https://stripe.com/resources/more/ai-saas-pricing-models",
+            "query": "AI SaaS startup business models pricing market"
+          },
+          {
+            "title": "AI Created SaaS Market Trends, Share and Forecast, 2026-2033",
+            "url": "https://www.coherentmarketinsights.com/industry-reports/ai-created-saas-market",
+            "query": "AI SaaS startup business models pricing market"
+          },
+          {
+            "title": "AI Pricing in 2026: SaaS pricing models that actually work",
+            "url": "https://www.valueships.com/post/ai-pricing-in-2026",
+            "query": "AI SaaS startup business models pricing market"
+          },
+          {
+            "title": "CRV | AI Business Model: How AI-Native Companies Make Money",
+            "url": "https://www.crv.com/content/ai-business-model",
+            "query": "AI SaaS startup business models pricing market"
+          },
+          {
+            "title": "The Future Role of Generative AI in SaaS Pricing | L.E.K. Consulting",
+            "url": "https://www.lek.com/insights/technology/future-role-generative-ai-saas-pricing",
+            "query": "AI SaaS startup business models pricing market"
+          },
+          {
+            "title": "Best Open Source AI Models | IBM",
+            "url": "https://www.ibm.com/think/insights/open-source-ai-tools",
+            "query": "open source AI tools commercial opportunities"
+          },
+          {
+            "title": "GitHub - garylab/MakeMoneyWithAI: A list of open-source AI projects you can use to generate income easily. · GitHub",
+            "url": "https://github.com/garylab/MakeMoneyWithAI",
+            "query": "open source AI tools commercial opportunities"
+          },
+          {
+            "title": "Top 10: Open Source AI Platforms | AI Magazine",
+            "url": "https://aimagazine.com/top10/top-10-open-source-ai-platforms",
+            "query": "open source AI tools commercial opportunities"
+          },
+          {
+            "title": "AI Coding Tools: The Bittersweet Reality for Open-Source Software Development | Technology AI News | CryptoRank.io",
+            "url": "https://cryptorank.io/news/feed/1fb3c-ai-coding-tools-open-source-reality",
+            "query": "open source AI tools commercial opportunities"
+          },
+          {
+            "title": "Best Open-Source AI Platforms for 2026: The Frameworks Powering Next-Gen ML and LLMs",
+            "url": "https://greennode.ai/blog/best-open-source-ai-platforms",
+            "query": "open source AI tools commercial opportunities"
+          }
+        ]
+      },
+      {
+        "sector_id": "tecnologia",
+        "sector": "Tecnologia",
+        "query": null,
+        "sources_validated_format": 15,
+        "distinct_domains": 14,
+        "evidence_score_out_of_100": 100,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Unmet Need Identification: Unlocking Business Potential - Luth Research",
+            "url": "https://luthresearch.com/glossary/unmet-need-identification-unlocking-business-potential",
+            "query": "emerging technology products unmet customer needs"
+          },
+          {
+            "title": "Unmet Needs Research: Five Tools for Identifying Them",
+            "url": "https://indeemo.com/resources/blog/unmet-needs-research-tools",
+            "query": "emerging technology products unmet customer needs"
+          },
+          {
+            "title": "What is Unmet Customer Needs?",
+            "url": "https://www.reallygoodinnovation.com/glossaries/unmet-customer-needs",
+            "query": "emerging technology products unmet customer needs"
+          },
+          {
+            "title": "Identify The Customer Needs - Uncovering Unmet Customer Needs",
+            "url": "https://strategyn.com/secrets-to-uncovering-unmet-customer-needs",
+            "query": "emerging technology products unmet customer needs"
+          },
+          {
+            "title": "Chronic Pain Pipeline Insight Report, 2024: Emerging Therapies, Key Products, Leading Companies, Unmet Needs and More",
+            "url": "https://finance.yahoo.com/news/chronic-pain-pipeline-insight-report-095700428.html",
+            "query": "emerging technology products unmet customer needs"
+          },
+          {
+            "title": "Developer Tools Market: Solutions, Trends, and Growth Potential",
+            "url": "https://www.eleken.co/blog-posts/developer-tools-market-overview",
+            "query": "developer tools startup opportunities market demand"
+          },
+          {
+            "title": "12 Fastest Growing Developer Tools Companies and Startups | Landbase",
+            "url": "https://www.landbase.com/blog/fastest-growing-developer-tools",
+            "query": "developer tools startup opportunities market demand"
+          },
+          {
+            "title": "Software Development Tools Market Size, Trends & Share Analysis 2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/software-development-tools-market",
+            "query": "developer tools startup opportunities market demand"
+          },
+          {
+            "title": "Building DevTools for Enterprises: The Untapped Market",
+            "url": "https://www.daytona.io/dotfiles/building-devtools-for-enterprises-the-untapped-market",
+            "query": "developer tools startup opportunities market demand"
+          },
+          {
+            "title": "Developer Tools — Market Analysis",
+            "url": "https://medium.com/@pratik0701ahu/developer-tools-market-analysis-d3d3c6667590",
+            "query": "developer tools startup opportunities market demand"
+          },
+          {
+            "title": "Barriers and Enablers to Advanced Technology Adoption for UK Businesses - GOV.UK",
+            "url": "https://www.gov.uk/government/publications/barriers-and-enablers-to-advanced-technology-adoption-for-uk-businesses/barriers-and-enablers-to-advanced-technology-adoption-for-uk-businesses",
+            "query": "technology trends adoption barriers business opportunities"
+          },
+          {
+            "title": "Challenges and Opportunities in Adopting Emerging Technologies",
+            "url": "https://medium.com/@kmv491712/challenges-and-opportunities-in-adopting-emerging-technologies-2a7b77ed5be0",
+            "query": "technology trends adoption barriers business opportunities"
+          },
+          {
+            "title": "Top Technology Adoption Challenges Businesses Face in 2026",
+            "url": "https://www.sparkouttech.com/technology-adoption-challenges",
+            "query": "technology trends adoption barriers business opportunities"
+          },
+          {
+            "title": "Succeeding with new technology: four barriers to overcome",
+            "url": "https://www.redhat.com/en/blog/succeeding-new-technology-four-barriers-overcome",
+            "query": "technology trends adoption barriers business opportunities"
+          },
+          {
+            "title": "Challenges for the Adoption of New Technology — Moser Consulting",
+            "url": "https://www.moserit.com/blog/challenges-of-new-technology",
+            "query": "technology trends adoption barriers business opportunities"
+          }
+        ]
+      },
+      {
+        "sector_id": "negocios_digitales",
+        "sector": "Negocios digitales",
+        "query": null,
+        "sources_validated_format": 15,
+        "distinct_domains": 14,
+        "evidence_score_out_of_100": 100,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "15 Profitable Service Business Niches for 2026 (Low Competition) - PainOnSocial Blog | PainOnSocial",
+            "url": "https://painonsocial.com/blog/service-business-niches",
+            "query": "profitable digital services underserved niches evidence"
+          },
+          {
+            "title": "11 Untapped Digital Product Niches in 2026 (Verified with Real Market Data) | Kupkaike",
+            "url": "https://kupkaike.com/blog/7-untapped-digital-product-niches",
+            "query": "profitable digital services underserved niches evidence"
+          },
+          {
+            "title": "12 Profitable Digital Products to Sell in 2026 (With Examples)",
+            "url": "https://zanfia.com/blog/digital-products-to-sell",
+            "query": "profitable digital services underserved niches evidence"
+          },
+          {
+            "title": "35 Underserved Digital Product Niches to Profit From in 2026",
+            "url": "https://payhip.com/mjresell/blog/news/35-underserved-digital-product-niches-to-profit-from-in-2026",
+            "query": "profitable digital services underserved niches evidence"
+          },
+          {
+            "title": "The SaaS Niches That Are Underserved Right Now (According to Data, Not Hype) - DEV Community",
+            "url": "https://dev.to/agenthustler/the-saas-niches-that-are-underserved-right-now-according-to-data-not-hype-3cjh",
+            "query": "profitable digital services underserved niches evidence"
+          },
+          {
+            "title": "Best Recurring Revenue Digital Products 2026: Top 5 Models",
+            "url": "https://insightraider.com/en/answers/what-are-the-best-recurring-revenue-digital-products",
+            "query": "digital products recurring revenue business models competition"
+          },
+          {
+            "title": "Recurring Revenue with Digital Products: 5 Models Compared",
+            "url": "https://insightraider.com/en/blog/recurring-revenue-digital-products",
+            "query": "digital products recurring revenue business models competition"
+          },
+          {
+            "title": "Best Recurring Revenue Business Ideas in 2026 (Ranked by Profit Margin) | VoiceAI Connect",
+            "url": "https://www.myvoiceaiconnect.com/blog/best-recurring-revenue-business-ideas-2026",
+            "query": "digital products recurring revenue business models competition"
+          },
+          {
+            "title": "9 Recurring Revenue Business Models and Ideas (2026 Guide)",
+            "url": "https://www.disco.co/blog/9-recurring-revenue-businesses-models-2024",
+            "query": "digital products recurring revenue business models competition"
+          },
+          {
+            "title": "Subscription Commerce Models: 2026 Recurring Revenue Guide ...",
+            "url": "https://www.trector.com/blog/subscription-commerce-models-2026",
+            "query": "digital products recurring revenue business models competition"
+          },
+          {
+            "title": "Customer Acquisition Cost and Growing Your Business",
+            "url": "https://www.simon-kucher.com/en/insights/customer-acquisition-cost-what-it-means-your-business",
+            "query": "small online business customer acquisition costs case studies"
+          },
+          {
+            "title": "Average Customer Acquisition Cost by Industry - Vena",
+            "url": "https://www.venasolutions.com/blog/average-cac-by-industry",
+            "query": "small online business customer acquisition costs case studies"
+          },
+          {
+            "title": "Rivo | Average Customer Acquisition Cost for eCommerce (CAC Cost)",
+            "url": "https://www.rivo.io/blog/average-customer-acquisition-cost-for-ecommerce",
+            "query": "small online business customer acquisition costs case studies"
+          },
+          {
+            "title": "5 Customer Acquisition Strategies for Small Businesses - Fluent Forms",
+            "url": "https://fluentforms.com/customer-acquisition-strategies-for-small-business",
+            "query": "small online business customer acquisition costs case studies"
+          },
+          {
+            "title": "Customer Acquisition: Complete Guide | BigCommerce",
+            "url": "https://www.bigcommerce.com/blog/customer-acquisition-engagement",
+            "query": "small online business customer acquisition costs case studies"
+          }
+        ]
+      },
+      {
+        "sector_id": "videojuegos",
+        "sector": "Videojuegos",
+        "query": null,
+        "sources_validated_format": 14,
+        "distinct_domains": 12,
+        "evidence_score_out_of_100": 100,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Indie Developer Market 2026: The Complete Industry Analysis with Data, Trends and Forecasts",
+            "url": "https://fungies.io/indie-developer-market-analysis",
+            "query": "indie game market trends underserved player niches"
+          },
+          {
+            "title": "Effective Marketing and Monetization Strategies Used in Small ...",
+            "url": "https://scholarworks.waldenu.edu/cgi/viewcontent.cgi?article=18633&context=dissertations",
+            "query": "indie game market trends underserved player niches"
+          },
+          {
+            "title": "How to Market an Indie Game: A 10-Step Indie Game Marketing Strategy",
+            "url": "https://clevertap.com/blog/indie-game-marketing",
+            "query": "indie game market trends underserved player niches"
+          },
+          {
+            "title": "Indie Game Market Size, Growth Forecast, Demand & Trends 2026–2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/indie-game-market",
+            "query": "indie game market trends underserved player niches"
+          },
+          {
+            "title": "Niche Market Success: Case Studies of Indie Game Developers Breaking the Mold | SocialTargeter Blog",
+            "url": "https://socialtargeter.com/blogs/niche-market-success-case-studies-of-indie-game-developers-breaking-the-mold",
+            "query": "indie game market trends underserved player niches"
+          },
+          {
+            "title": "Game Development Software Market Report, Industry and Market Size & Revenue, Share, Forecast 2024–2030",
+            "url": "https://www.strategicmarketresearch.com/market-report/game-development-software-market",
+            "query": "video game development tools monetization market research"
+          },
+          {
+            "title": "Game Development Market Size, Share | Industry Analysis & Growth Trends 2031",
+            "url": "https://www.mordorintelligence.com/industry-reports/game-development-market",
+            "query": "video game development tools monetization market research"
+          },
+          {
+            "title": "Game Development Tools Market Size, Growth 2035",
+            "url": "https://www.businessresearchinsights.com/market-reports/game-development-tools-market-107754",
+            "query": "video game development tools monetization market research"
+          },
+          {
+            "title": "Game Monetization Strategies That Actually Work",
+            "url": "https://www.juegostudio.com/blog/game-monetization",
+            "query": "video game development tools monetization market research"
+          },
+          {
+            "title": "17 best business ideas for gamers (2026)",
+            "url": "https://enterpriseleague.com/blog/business-ideas-for-gamers",
+            "query": "gaming industry business opportunities small studios 2026"
+          },
+          {
+            "title": "2026 Gaming Industry Deep Dive: The Silent Revolution and Investment Breaking Points Beyond the $200 Billion Milestone | by Jerrelgame | Medium",
+            "url": "https://medium.com/@jerrelgame/2026-gaming-industry-deep-dive-the-silent-revolution-and-investment-breaking-points-beyond-the-cfe3a13960e9",
+            "query": "gaming industry business opportunities small studios 2026"
+          },
+          {
+            "title": "Three Trends Shaping The Gaming Industry In 2026",
+            "url": "https://www.forbes.com/councils/forbestechcouncil/2026/04/16/three-trends-shaping-the-gaming-industry-in-2026",
+            "query": "gaming industry business opportunities small studios 2026"
+          },
+          {
+            "title": "Gaming Business Startup Guide: 5 Models for 2026 Entrepreneurs | Lovable",
+            "url": "https://lovable.dev/guides/how-to-start-gaming-business-2026",
+            "query": "gaming industry business opportunities small studios 2026"
+          },
+          {
+            "title": "Top Video Game Industry Trends for 2026 | Juego Studios",
+            "url": "https://www.juegostudio.com/blog/recent-trends-reforming-gaming-industry",
+            "query": "gaming industry business opportunities small studios 2026"
+          }
+        ]
+      },
+      {
+        "sector_id": "cripto",
+        "sector": "Criptoactivos",
+        "query": null,
+        "sources_validated_format": 15,
+        "distinct_domains": 13,
+        "evidence_score_out_of_100": 100,
+        "evidence_level": "BASE DOCUMENTAL INICIAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": [
+          {
+            "title": "Global drivers of cryptocurrency infrastructure adoption | Small Business Economics | Springer Nature Link",
+            "url": "https://link.springer.com/article/10.1007/s11187-019-00309-8",
+            "query": "crypto market infrastructure adoption risks evidence"
+          },
+          {
+            "title": "Economic Risk and Cryptocurrency: What Drives Global Digital Asset Adoption?",
+            "url": "https://www.mdpi.com/1911-8074/18/8/453",
+            "query": "crypto market infrastructure adoption risks evidence"
+          },
+          {
+            "title": "Crypto Adoption in Emerging Markets Poses Risks to Financial Resilience: Moody's",
+            "url": "https://ca.finance.yahoo.com/news/crypto-adoption-emerging-markets-poses-100821694.html",
+            "query": "crypto market infrastructure adoption risks evidence"
+          },
+          {
+            "title": "Crypto’s Meteoric Rise and Mainstream Adoption - NICE Actimize",
+            "url": "https://www.niceactimize.com/blog/cryptos-meteoric-rise-and-mainstream-adoption",
+            "query": "crypto market infrastructure adoption risks evidence"
+          },
+          {
+            "title": "Perceived Risks and Challenges in Cryptocurrency Adoption",
+            "url": "https://www.researchgate.net/publication/393215866_Perceived_Risks_and_Challenges_in_Cryptocurrency_Adoption",
+            "query": "crypto market infrastructure adoption risks evidence"
+          },
+          {
+            "title": "Crypto Innovation: Top 10 Crypto Business Models in 2026",
+            "url": "https://www.innreg.com/blog/top-crypto-innovation-business-models",
+            "query": "blockchain products real user demand business models"
+          },
+          {
+            "title": "Blockchain-Based New Business Models: A Systematic Review",
+            "url": "https://www.mdpi.com/2079-9292/12/6/1479",
+            "query": "blockchain products real user demand business models"
+          },
+          {
+            "title": "Getting the Blockchain Business: Market Projections and Trends",
+            "url": "https://qubit.capital/blog/build-winning-blockchain-business-plan-startups",
+            "query": "blockchain products real user demand business models"
+          },
+          {
+            "title": "Business models for the Blockchain: An empirical analysis",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2666954424000103",
+            "query": "blockchain products real user demand business models"
+          },
+          {
+            "title": "Integrating Blockchain for Business Advantage: A Complete Guide | TSI",
+            "url": "https://www.thestrategyinstitute.org/insights/integrating-blockchain-for-business-advantage-a-complete-guide",
+            "query": "blockchain products real user demand business models"
+          },
+          {
+            "title": "Decrypting financial stability risks in crypto-asset markets",
+            "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202205_02~1cc6b111b4.en.html",
+            "query": "crypto asset market data volatility liquidity risks"
+          },
+          {
+            "title": "The Impact of Cryptocurrency Market Volatility on ...",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6059114",
+            "query": "crypto asset market data volatility liquidity risks"
+          },
+          {
+            "title": "Crypto market volatility: What it is and how to navigate it",
+            "url": "https://www.kraken.com/learn/crypto-market-volatility",
+            "query": "crypto asset market data volatility liquidity risks"
+          },
+          {
+            "title": "Crypto Market Liquidity Plummets to 4-Year Low: DWF Labs Co-Founder Issues Critical Volatility Warning | Analysis Finance | CryptoRank.io",
+            "url": "https://cryptorank.io/news/feed/424c7-crypto-market-liquidity-four-year-low",
+            "query": "crypto asset market data volatility liquidity risks"
+          },
+          {
+            "title": "Joint Impact of Market Volatility and Cryptocurrency Holdings on Corporate Liquidity: A Comparative Analysis of Cryptocurrency Exchanges and Other Firms",
+            "url": "https://www.mdpi.com/1911-8074/17/9/406",
+            "query": "crypto asset market data volatility liquidity risks"
+          }
+        ]
+      }
+    ]
   }
 ]
