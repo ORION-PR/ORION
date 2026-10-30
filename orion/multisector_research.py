@@ -61,7 +61,8 @@ def main():
                     sources.append({
                         "title": item.get("title") or "Sin título",
                         "url": url,
-                        "query": query,
+                        "query": query,"snippet": str(item.get("snippet") or item.get("content") or "")[:4000],
+"search_score": item.get("score"),
                     })
 
                 print(f"    Resultados recibidos: {len(items)}")
