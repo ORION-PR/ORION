@@ -1,20 +1,17 @@
 # ORION - Resumen diario
 
-Fecha: 30/10/2026 20:10 (Argentina)
+Fecha: 31/10/2026 00:57 (Argentina)
 
 Evaluacion documental de oportunidades. No equivale a rentabilidad comprobada.
 
 ## Inteligencia artificial
-- Puntaje documental: 100/100
-- distinct_domains: 15
+- Puntaje documental: 0/100
 
 ## Tecnologia
-- Puntaje documental: 100/100
-- distinct_domains: 12
+- Puntaje documental: 0/100
 
 ## Negocios digitales
-- Puntaje documental: 100/100
-- distinct_domains: 7
+- Puntaje documental: 0/100
 
 ## Videojuegos
 - Puntaje documental: 0/100

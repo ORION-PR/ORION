@@ -14862,5 +14862,77 @@
       }
     ],
     "finished_at": "2026-10-30T23:10:07.432042+00:00"
+  },
+  {
+    "started_at": "2026-10-31T03:57:34.571754+00:00",
+    "mode": "research_only_no_trading",
+    "sectors": [
+      {
+        "sector_id": "ia",
+        "sector": "Inteligencia artificial",
+        "queries": [
+          "AI automation underserved small business problems",
+          "AI SaaS startup business models pricing market",
+          "open source AI tools commercial opportunities"
+        ],
+        "queries_count": 3,
+        "sources_found": 0,
+        "error": "AI automation underserved small business problems: Falló la búsqueda Tavily (HTTP 432); AI SaaS startup business models pricing market: Falló la búsqueda Tavily (HTTP 432); open source AI tools commercial opportunities: Falló la búsqueda Tavily (HTTP 432)",
+        "sources": []
+      },
+      {
+        "sector_id": "tecnologia",
+        "sector": "Tecnologia",
+        "queries": [
+          "emerging technology products unmet customer needs",
+          "developer tools startup opportunities market demand",
+          "technology trends adoption barriers business opportunities"
+        ],
+        "queries_count": 3,
+        "sources_found": 0,
+        "error": "emerging technology products unmet customer needs: Falló la búsqueda Tavily (HTTP 432); developer tools startup opportunities market demand: Falló la búsqueda Tavily (HTTP 432); technology trends adoption barriers business opportunities: Falló la búsqueda Tavily (HTTP 432)",
+        "sources": []
+      },
+      {
+        "sector_id": "negocios_digitales",
+        "sector": "Negocios digitales",
+        "queries": [
+          "profitable digital services underserved niches evidence",
+          "digital products recurring revenue business models competition",
+          "small online business customer acquisition costs case studies"
+        ],
+        "queries_count": 3,
+        "sources_found": 0,
+        "error": "profitable digital services underserved niches evidence: Falló la búsqueda Tavily (HTTP 432); digital products recurring revenue business models competition: Falló la búsqueda Tavily (HTTP 432); small online business customer acquisition costs case studies: Falló la búsqueda Tavily (HTTP 432)",
+        "sources": []
+      },
+      {
+        "sector_id": "videojuegos",
+        "sector": "Videojuegos",
+        "queries": [
+          "indie game market trends underserved player niches",
+          "video game development tools monetization market research",
+          "gaming industry business opportunities small studios 2026"
+        ],
+        "queries_count": 3,
+        "sources_found": 0,
+        "error": "indie game market trends underserved player niches: Falló la búsqueda Tavily (HTTP 432); video game development tools monetization market research: Falló la búsqueda Tavily (HTTP 432); gaming industry business opportunities small studios 2026: Falló la búsqueda Tavily (HTTP 432)",
+        "sources": []
+      },
+      {
+        "sector_id": "cripto",
+        "sector": "Criptoactivos",
+        "queries": [
+          "crypto market infrastructure adoption risks evidence",
+          "blockchain products real user demand business models",
+          "crypto asset market data volatility liquidity risks"
+        ],
+        "queries_count": 3,
+        "sources_found": 0,
+        "error": "crypto market infrastructure adoption risks evidence: Falló la búsqueda Tavily (HTTP 432); blockchain products real user demand business models: Falló la búsqueda Tavily (HTTP 432); crypto asset market data volatility liquidity risks: Falló la búsqueda Tavily (HTTP 432)",
+        "sources": []
+      }
+    ],
+    "finished_at": "2026-10-31T03:57:37.872110+00:00"
   }
 ]
