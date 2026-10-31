@@ -17659,5 +17659,102 @@
         "sources": []
       }
     ]
+  },
+  {
+    "research_started_at": "2026-10-31T09:53:09.716826+00:00",
+    "evaluated_at": "2026-10-31T09:53:15.829701+00:00",
+    "method": "documental_transparente_no_rentabilidad",
+    "evaluations": [
+      {
+        "sector_id": "ia",
+        "sector": "Inteligencia artificial",
+        "query": null,
+        "sources_validated_format": 0,
+        "distinct_domains": 0,
+        "evidence_score_out_of_100": 0,
+        "evidence_level": "SIN EVIDENCIA DOCUMENTAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": []
+      },
+      {
+        "sector_id": "tecnologia",
+        "sector": "Tecnologia",
+        "query": null,
+        "sources_validated_format": 0,
+        "distinct_domains": 0,
+        "evidence_score_out_of_100": 0,
+        "evidence_level": "SIN EVIDENCIA DOCUMENTAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": []
+      },
+      {
+        "sector_id": "negocios_digitales",
+        "sector": "Negocios digitales",
+        "query": null,
+        "sources_validated_format": 0,
+        "distinct_domains": 0,
+        "evidence_score_out_of_100": 0,
+        "evidence_level": "SIN EVIDENCIA DOCUMENTAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": []
+      },
+      {
+        "sector_id": "videojuegos",
+        "sector": "Videojuegos",
+        "query": null,
+        "sources_validated_format": 0,
+        "distinct_domains": 0,
+        "evidence_score_out_of_100": 0,
+        "evidence_level": "SIN EVIDENCIA DOCUMENTAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": []
+      },
+      {
+        "sector_id": "cripto",
+        "sector": "Criptoactivos",
+        "query": null,
+        "sources_validated_format": 0,
+        "distinct_domains": 0,
+        "evidence_score_out_of_100": 0,
+        "evidence_level": "SIN EVIDENCIA DOCUMENTAL",
+        "commercial_demand_validated": false,
+        "profitability_validated": false,
+        "next_checks": [
+          "Verificar contenido y fecha de cada fuente",
+          "Buscar evidencia directa de demanda de clientes",
+          "Estimar costos, competencia e inversión inicial",
+          "Validar modelo de ingresos y riesgos"
+        ],
+        "sources": []
+      }
+    ]
   }
 ]
